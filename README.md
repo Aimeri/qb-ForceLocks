@@ -16,3 +16,5 @@ Step 3: Extract/copy the qb-ForceLocks folder into your resources/[qb-addons]/  
 Step 4: Restart your server.<br /><br />
 
 Now you can use the blowtorch item while next to a locked vehicle to gain keys to that vehicle if you're PD or a Mechanic.  Feel free to add or remove jobs in the Config.lua.
+
+<b>Preview Video:</b> https://streamable.com/zfyqih
