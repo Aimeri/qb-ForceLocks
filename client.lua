@@ -38,9 +38,9 @@ RegisterNetEvent('forcelocks:client:forcelock', function()
                     ClearPedTasks(playerPed)
                 end)
         else
-            QBCore.Functions.Notify("You are not allowed to force open locks with your current job.", "error")
+            QBCore.Functions.Notify("You are not allowed to force open locks with your current job or you are not on duty.", "error")
         end
     else
-        QBCore.Functions.Notify("You are too far from the vehicle to force open locks.", "error")
+        QBCore.Functions.Notify("You are too far from the vehicle to force open locks.  Move closer!", "error")
     end
 end)
