@@ -4,7 +4,7 @@ Allows players within a job (Defined in the config.lua) to gain access to vehicl
 Step 1: Head over to resources/[qb]/qb-core/shared/items.lua and add:
 
 ```
-["blowtorch"]	= {["name"] = "blowtorch", ["label"] = "Blowtorch", ["weight"] = 1000, ["type"] = "item", ["image"] = "blowtorch.png", ["unique"] = true, ["useable"] = true, ['shouldClose'] = true, ["combinable"] = nil, ["description"] = "Used to access cars" },
+blowtorch	= {name = 'blowtorch', label = 'Blowtorch', weight = 1000, type = 'item', image = 'blowtorch.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Used to access cars' },
 ```
 
 Step 2: Copy the "blowtorch.png" image provided into resources/[qb]/qb-inventory/html/images/
